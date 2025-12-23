@@ -70,6 +70,13 @@ web_modules/
 .env.*
 !.env.example
 
+# Ignore all .pem files
+*.pem
+
+# Explicitly ignore common key file names as well
+private_key.pem
+server.key
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
